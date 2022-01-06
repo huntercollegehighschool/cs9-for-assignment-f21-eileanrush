@@ -7,4 +7,9 @@ Write a program that asks the user to enter a positive integer n. The program wi
 For example, if the user types in 4, the program should print 100 (since 1^3 + 2^3 + 3^3 + 4^3 = 100).
 """
 
-#write your code here
+number = int(input("Enter a number: "))
+
+for i in range(number):
+  product = i * i * i
+
+print(product)
